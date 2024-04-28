@@ -33,7 +33,7 @@ const dataSchema = new mongoose.Schema({
 });
 
 // Create a model from the schema
-const Data = mongoose.model("Data", dataSchema, "aqualize"); // 'aqualize' is the collection name
+const Data = mongoose.model("SenorData", dataSchema); // 'aqualize' is the collection name
 
 // Define API endpoint to fetch data
 // Define API endpoint to fetch data sorted by entryId
