@@ -10,7 +10,7 @@ app.use(cors());
 
 // Connect to MongoDB database
 mongoose.connect(
-  "mongodb+srv://kedarmalap06:kedarmalap06@aqualize-data.dnkqwsv.mongodb.net/?retryWrites=true&w=majority&appName=aqualize-data",
+  "mongodb+srv://saurabh1234:saurabh1234@cluster0.bwjbpkc.mongodb.net/aqualize?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
